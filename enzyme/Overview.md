@@ -32,12 +32,7 @@ Calls:
 The only way to test componentDidMount and componentDidUpdate.
 Full rendering including child components.
 Requires a DOM (jsdom, domino).
-More constly in execution time.
-If react is included before JSDOM, it can require some tricks:
-
-```js
-require('fbjs/lib/ExecutionEnvironment').canUseDOM = true;
-```
+More costly in execution time.
 
 ### Simple mount
 ***

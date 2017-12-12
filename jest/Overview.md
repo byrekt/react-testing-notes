@@ -3,7 +3,7 @@ When dealing with small presentational components, it's often sufficient to just
 
 The general idea is that once the snapshot is generated, any future changes that affect the render of the HTML will cause a test failure that must be reviewed by the developer that caused the discrepency.
 
-When dealing with Components that have a lot of non-primitive children, Jest snapshot tests are often not pracitical. When this is the case, it's best to do a shallow test using [enzyme](../enzyme/Overview.md).
+When dealing with Components that have a lot of non-primitive children, Jest snapshot tests are often not practical. When this is the case, it's best to do a shallow test using [enzyme](../enzyme/Overview.md).
 
 # What should I use it for?
 - Simple presentational components
