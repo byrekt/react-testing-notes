@@ -9,6 +9,9 @@ While writing tests for React components at Priceline.com I've encountered many 
 - [Overview](enzyme/Overview.md)
 - [Shallow](enzyme/Shallow.md)
 - [Mount](enzyme/Mount.md)
+- [Render](enzyme/Render.md)
 
 ## Advanced Use-Cases
-- [Redux](advanced/Redux.md)
+- [Redux/Connected Components](advanced/Redux.md)
+- [Enzyme Testing Themed Components](advanced/EnzymeTestingThemedComponents.md)
+- [Non-Synthetic/External Event Testing](advanced/NonSyntheticEvents.md)
